@@ -1,0 +1,16 @@
+C:\Users\thepo\OneDrive\Pulpit\Uczelnia\GrafikaKomputerowa\TriangleMesh\TriangleMesh\bin\Debug\net6.0-windows\TriangleMesh.exe
+C:\Users\thepo\OneDrive\Pulpit\Uczelnia\GrafikaKomputerowa\TriangleMesh\TriangleMesh\bin\Debug\net6.0-windows\TriangleMesh.deps.json
+C:\Users\thepo\OneDrive\Pulpit\Uczelnia\GrafikaKomputerowa\TriangleMesh\TriangleMesh\bin\Debug\net6.0-windows\TriangleMesh.runtimeconfig.json
+C:\Users\thepo\OneDrive\Pulpit\Uczelnia\GrafikaKomputerowa\TriangleMesh\TriangleMesh\bin\Debug\net6.0-windows\TriangleMesh.dll
+C:\Users\thepo\OneDrive\Pulpit\Uczelnia\GrafikaKomputerowa\TriangleMesh\TriangleMesh\bin\Debug\net6.0-windows\TriangleMesh.pdb
+C:\Users\thepo\OneDrive\Pulpit\Uczelnia\GrafikaKomputerowa\TriangleMesh\TriangleMesh\obj\Debug\net6.0-windows\TriangleMesh.Form1.resources
+C:\Users\thepo\OneDrive\Pulpit\Uczelnia\GrafikaKomputerowa\TriangleMesh\TriangleMesh\obj\Debug\net6.0-windows\TriangleMesh.csproj.GenerateResource.cache
+C:\Users\thepo\OneDrive\Pulpit\Uczelnia\GrafikaKomputerowa\TriangleMesh\TriangleMesh\obj\Debug\net6.0-windows\TriangleMesh.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thepo\OneDrive\Pulpit\Uczelnia\GrafikaKomputerowa\TriangleMesh\TriangleMesh\obj\Debug\net6.0-windows\TriangleMesh.AssemblyInfoInputs.cache
+C:\Users\thepo\OneDrive\Pulpit\Uczelnia\GrafikaKomputerowa\TriangleMesh\TriangleMesh\obj\Debug\net6.0-windows\TriangleMesh.AssemblyInfo.cs
+C:\Users\thepo\OneDrive\Pulpit\Uczelnia\GrafikaKomputerowa\TriangleMesh\TriangleMesh\obj\Debug\net6.0-windows\TriangleMesh.csproj.CoreCompileInputs.cache
+C:\Users\thepo\OneDrive\Pulpit\Uczelnia\GrafikaKomputerowa\TriangleMesh\TriangleMesh\obj\Debug\net6.0-windows\TriangleMesh.dll
+C:\Users\thepo\OneDrive\Pulpit\Uczelnia\GrafikaKomputerowa\TriangleMesh\TriangleMesh\obj\Debug\net6.0-windows\refint\TriangleMesh.dll
+C:\Users\thepo\OneDrive\Pulpit\Uczelnia\GrafikaKomputerowa\TriangleMesh\TriangleMesh\obj\Debug\net6.0-windows\TriangleMesh.pdb
+C:\Users\thepo\OneDrive\Pulpit\Uczelnia\GrafikaKomputerowa\TriangleMesh\TriangleMesh\obj\Debug\net6.0-windows\TriangleMesh.genruntimeconfig.cache
+C:\Users\thepo\OneDrive\Pulpit\Uczelnia\GrafikaKomputerowa\TriangleMesh\TriangleMesh\obj\Debug\net6.0-windows\ref\TriangleMesh.dll
