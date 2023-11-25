@@ -25,5 +25,12 @@ namespace TriangleMesh
         {
             CurrentX = CurrentX + InverseSlope;
         }
+
+        public (double, double, double, double) ReturnSortedXY()
+        {
+            if (Start.X < End.X)
+                return (Start.X, Start.Y, End.X, End.Y);
+            return (End.X, End.Y, Start.X, Start.Y);
+        }
     }
 }

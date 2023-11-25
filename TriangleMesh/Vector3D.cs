@@ -76,7 +76,7 @@ namespace TriangleMesh
             return unitVector;
         }
 
-        public static Vector3D CaclculateNormVector(int x, int y, int z)
+        public static Vector3D CaclculateNormVector(double x, double y, double z)
         {
             Vector3D Vector = new Vector3D(x / TriangleMesh.width, y / TriangleMesh.height, z / TriangleMesh.HeightView);
 
@@ -84,8 +84,8 @@ namespace TriangleMesh
             Vector3D VectorV = new Vector3D(0, 1, 0);
 
             double h = 1e-6;
-            double derivativeU = (Helpers.CalculateZPoint(Vector.X + h, Vector.Y) - Vector.Z) / h;
-            double derivativeV = (Helpers.CalculateZPoint(Vector.X, Vector.Y + h) - Vector.Z) / h;
+            double derivativeU = (Helpers.CalculateZPoint(Vector.X + h, Vector.Y) - Helpers.CalculateZPoint(Vector.X - h, Vector.Y)) / (2 * h);
+            double derivativeV = (Helpers.CalculateZPoint(Vector.X, Vector.Y + h) - Helpers.CalculateZPoint(Vector.X, Vector.Y - h)) / (2 * h);
             VectorU.Z = derivativeU;
             VectorV.Z = derivativeV;
 

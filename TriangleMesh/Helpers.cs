@@ -26,17 +26,20 @@ namespace TriangleMesh
                     break;
             }
 
-            return first * Math.Pow(t, i) * Math.Pow(1 - t, 1 - i);
+            return first * Math.Pow(t, i) * Math.Pow(1 - t, 3 - i);
         }
 
         public static double CalculateZPoint(double x, double y)
         {
             double sum = 0;
+            //MessageBox.Show($"{TriangleMesh.ControlPoints[0, 0].Z}");
             for (int i = 0; i < 4; i++)
             {
                 for (int j = 0; j < 4; j++)
                 {
-                    int Z = TriangleMesh.ControlPoints[j, i].Z / TriangleMesh.HeightView;
+                    double Z = (double)TriangleMesh.ControlPoints[j, i].Z / (double)TriangleMesh.HeightView;
+                    //double Z = 0.05;
+                    //int Z = TriangleMesh.ControlPoints[j, i].Z;
 
                     sum += Z * BezierPoint(i, x) * BezierPoint(j, y);
                 }

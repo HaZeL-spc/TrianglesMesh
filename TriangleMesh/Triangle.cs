@@ -32,6 +32,7 @@ namespace TriangleMesh
             double c = MyPoint3D.DistanceTo(p1, p2);
 
             double s = (a + b + c) / 2;
+            if (Math.Abs(s - a) < 0.001 || Math.Abs(s - b) < 0.001 || Math.Abs(s - c) < 0.001) return 0;
 
             return Math.Sqrt(s * (s - a) * (s - b) * (s - c));
         }
@@ -44,6 +45,8 @@ namespace TriangleMesh
             double c = MyPoint3D.DistanceTo(triangle.p1, triangle.p2);
 
             double s = (a + b + c) / 2;
+
+            if (Math.Abs(s - a) < 0.001 || Math.Abs(s - b) < 0.001 || Math.Abs(s - c) < 0.001) return 0;
 
             return Math.Sqrt(s * (s - a) * (s - b) * (s - c));
         }

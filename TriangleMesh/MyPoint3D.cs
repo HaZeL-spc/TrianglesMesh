@@ -35,14 +35,18 @@ namespace TriangleMesh
         {
             double deltaX = pointB.X - pointA.X;
             double deltaY = pointB.Y - pointA.Y;
-            double deltaZ = pointB.Z - pointA.Z;
 
-            return Math.Sqrt(deltaX * deltaX + deltaY * deltaY + deltaZ * deltaZ);
+            return Math.Sqrt(deltaX * deltaX + deltaY * deltaY);
         }
 
         public double DerivativeVector(MyPoint3D Vector)
         {
             return 0;
+        }
+
+        public override string ToString()
+        {
+            return $"({X}, {Y}, {Z})";
         }
     }
 }
